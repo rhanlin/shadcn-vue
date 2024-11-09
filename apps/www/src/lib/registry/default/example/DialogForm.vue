@@ -38,7 +38,7 @@ function onSubmit(values: any) {
 </script>
 
 <template>
-  <Form v-slot="{ handleSubmit }" as="" :validation-schema="formSchema">
+  <Form v-slot="{ handleSubmit }" as="" keep-values :validation-schema="formSchema">
     <Dialog>
       <DialogTrigger as-child>
         <Button variant="outline">
